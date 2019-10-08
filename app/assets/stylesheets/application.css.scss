@@ -14,7 +14,7 @@
  *= require_self
  */
 $white_opaque: rgba(250, 250, 250, .3);
-$dark: #1F7972;
+$dark: black;
 
 * {
 	box-sizing: border-box;
@@ -24,12 +24,13 @@ html {
 }
 
 body {
-  height: 100%;
-  background: -webkit-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:    -moz-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:     -ms-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:      -o-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:         linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
+	height: 100%;
+	background: url(pome.jpg);
+  // background: -webkit-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
+  // background:    -moz-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
+  // background:     -ms-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
+  // background:      -o-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
+  // background:         linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
   font-family: 'Lato', sans-serif;
 }
 
@@ -73,11 +74,11 @@ body {
 	font-weight: 700;
 	font-size: 2.5rem;
 	text-transform: uppercase;
-	color: white;
+	color: black;
 	margin: 0;
 	a {
 		text-decoration: none;
-		color: white;
+		color: black;
 		transition: all .4s ease-in-out;
 		&:hover {
 			opacity: 0.4;
@@ -89,13 +90,13 @@ body {
 	margin: 0 0 3em 0;
 	text-align: center;
 	font-size: 0.9em;
-	color: $dark;
+	color:black;
 	font-weight: 100;
 }
 
 .index_row {
 	padding: 2em;
-	border-bottom: 1px solid rgba(250,250,250, .3);
+	border-bottom: 1px solid black;
 	.todo_list_sub_title {
 		margin-bottom: 0;
 	}
@@ -175,9 +176,9 @@ body {
 	margin: 1.5em auto 0 auto;
 	text-align: center;
 	font-size: 0.8em;
-	color: white;
+	color: black;
 	a {
-		color: white;
+		color: black;
 	}
 }
 
@@ -185,7 +186,7 @@ body {
 	padding: 0 5%;
 }
 label {
-	color: $dark;
+	color: black;
 }
 input[type="text"], textarea {
 	width: 100%;
